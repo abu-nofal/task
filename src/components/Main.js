@@ -9,7 +9,7 @@ function Main() {
     let url =
       "https://api.themoviedb.org/3/list/10?api_key=be8039e5a6490d316ea38486d99ac969";
     let res = await axios.get(url);
-    console.log("grossingFilms", res.data.items);
+    // console.log("grossingFilms", res.data.items);
     setFilmsData(res.data.items);
     
   }

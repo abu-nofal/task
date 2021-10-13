@@ -9,7 +9,7 @@ function DetailMovie() {
   async function getFilmById() {
     let url = `https://api.themoviedb.org/3/movie/${idFilm}?api_key=be8039e5a6490d316ea38486d99ac969`;
     const res = await axios.get(url);
-    console.log(res.data);
+    // console.log(res.data);
     setData(res.data);
   }
 
