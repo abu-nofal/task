@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+.continer-Details{
+    background-color: rgba(17, 16, 16, 0.931);
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 630 auto  ;
+}
+.details h1{
+    color: white;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.details h2 {
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+}
+.details h3{
+    color: white;
+    font-weight: 400;
+    font-size: large;
+}
+.details span{
+    color: rgba(238, 203, 3, 0.938);
+    margin-left: 3px;
+}
