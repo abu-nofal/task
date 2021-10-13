@@ -1,0 +1,38 @@
+.continer-Cards{
+    width: 960px;
+    margin: 15px auto;
+    display: grid;
+    /* grid-column-gap: 5px; */
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+}
+.card {
+    height: 400px;
+    width: 230px;
+    position: relative;
+}
+.card img{
+    height: 290px;
+    width: 200px;
+    border-radius: 10px;
+}
+.card img:hover{
+    cursor: pointer;
+}
+.card .rate{
+    position: absolute;
+    border: rgba(60, 255, 0, 0.877) solid 2px;
+    left: 10px;
+    top: 10px;
+    color: white;
+    border-radius: 17px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+.continer-Cards .title{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+}
